@@ -1,8 +1,7 @@
 <h1>Dev Server</h1>
 
 <p>
-    &emsp;This is a LEMP development server. (<em>Special Note:</em>
-    This can easily be modified by changing the images and rebuilding.)
+    &emsp;This is a LEMP development server.
 </p>
 
 <p>System Images</p>
