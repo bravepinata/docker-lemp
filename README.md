@@ -10,7 +10,7 @@ It is built from:
  
 <strong>Step 1:</strong> Clone this repository on your local computer
 ```shell
-git clone git@github.com:bravepinata/docker-lemp.git
+sudo git clone git@github.com:bravepinata/docker-lemp.git
 ```
 
 <strong>Step 2:</strong> Enter the newly created imh_v01 directory
