@@ -29,7 +29,7 @@ sudo rm -rf .git
 
 <strong>Step 5:</strong> Move the MySQL dump files to the seed directory
 
-<strong>Step 6:</strong> Change each database in the docker-compose file
+<strong>Step 6:</strong> In the docker-compose file, change the database build directory from schema/ to seed/ 
 1. Comment this out: - ./database/schema/DBOne.sql:/docker-entrypoint-initdb.d/schema.sql:ro
 2. Add this in: - ./database/seed/DBOne.sql:/docker-entrypoint-initdb.d/schema.sql:ro
 
@@ -40,4 +40,4 @@ sudo docker compose up -d
 
 <strong>Step 8:</strong> When it completes building, go to http://localhost
 
-<strong>Step 9:</strong> Follow the instructions on localhost domain, http://localhost
+<strong>Step 9:</strong> Follow the instructions on the localhost domain
