@@ -10,7 +10,7 @@
 <ul class="no-bullets">
 
 <?  foreach ($hosts as $idx => $host) : ?>
-        <li><a href="http://<?= $host['alias'] ?>/" target="_blank"><?= $host['name']?></a></li>
+        <li><a href="http://<?= $host['alias'] ?>/"><?= $host['name']?></a></li>
 <?  endforeach; ?>
 
 </ul>
