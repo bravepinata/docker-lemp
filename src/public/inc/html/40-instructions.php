@@ -3,8 +3,6 @@
 <p>
     &emsp;Create <?= sizeof($dbs) ?> connections to the local databases. Note that each database connects to a
     different port, 3306 and 3307.
-    (<em>Special Note:</em>
-    Per Docker, best practice dictates a database should reside inside of a separate database image.)
 </p>
 
 <?  foreach ($dbs as $db) : ?>
