@@ -1,0 +1,46 @@
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx.dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - mysql_dbone
+      - mysql_dbtwo
+      - php
+  mysql_dbone:
+    image: mariadb:lts
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: DBOne
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
+    volumes:
+      - ./mysql/dbone:/var/lib/mysql
+      - ./database/schema/dbone.sql:/docker-entrypoint-initdb.d/schema.sql
+  mysql_dbtwo:
+    image: mariadb:lts
+    restart: always
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: DBTwo
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
+    volumes:
+      - ./mysql/dbtwo:/var/lib/mysql
+      - ./database/schema/dbtwo.sql:/docker-entrypoint-initdb.d/schema.sql
+  php:
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    volumes:
+      - ./src:/var/www/html
