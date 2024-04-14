@@ -1,4 +1,4 @@
-<h2>Step 4: Database Connections</h2>
+<h2>Step 4: DB Connections</h2>
 
 <p>
     &emsp;Create <?= sizeof($dbs) ?> connections to the local databases. Note that each database connects to a

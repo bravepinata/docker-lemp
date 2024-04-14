@@ -1,7 +1,7 @@
 <h1>Dev Server</h1>
 
 <p>
-    &emsp;This is a LEMP development server.
+    &emsp;This is a LEMP development server in a Docker container.
 </p>
 
 <p>System Images</p>

@@ -1,4 +1,4 @@
-<h2>Step 2: Test Host Entrie</h2>
+<h2>Step 2: Test Entry</h2>
 
 <p>
     &emsp;Test the host entries by clicking the links below.

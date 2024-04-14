@@ -8,17 +8,17 @@
 	</head>
 	<body>
 
-<?  require 'inc/html/10-instructions.php' ?>
+<?  require 'inc/html/heading.php' ?>
 
-<?  require 'inc/html/20-instructions.php' ?>
+<?  require 'inc/html/domain.php' ?>
 
-<?  require 'inc/html/30-instructions.php' ?>
+<?  require 'inc/html/host.php' ?>
 
-<?  require 'inc/html/50-instructions.php' ?>
+<?  require 'inc/html/databases.php' ?>
 
-<?  require 'inc/html/40-instructions.php' ?>
+<?  require 'inc/html/connection.php' ?>
 
-<?  require 'inc/html/60-instructions.php' ?>
+<?  require 'inc/html/success.php' ?>
 
 <? // phpinfo() ?>
 
