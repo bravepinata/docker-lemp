@@ -23,12 +23,11 @@ cd docker-lemp/
 sudo rm -rf .git
 ```
 
-<strong>Step 4:</strong> Create a MySQL dump file of the databases below.
+<strong>Step 4:</strong> Create a MySQL dump file of the databases
 * DBOne
 * DBTwo
 
-<strong>Step 5:</strong> Move the MySQL dump files to the seed directory.
-database/seed/
+<strong>Step 5:</strong> Move the MySQL dump files to the seed directory
 
 <strong>Step 6:</strong> Change each database in the docker-compose file
 1. Comment this out: - ./database/schema/DBOne.sql:/docker-entrypoint-initdb.d/schema.sql:ro
