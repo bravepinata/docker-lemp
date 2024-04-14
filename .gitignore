@@ -1,0 +1,6 @@
+# mysql volumes
+mysql/
+
+# seed files
+database/seed/
+!database/seed/.gitkeep
