@@ -1,11 +1,9 @@
-<h2>Step 2: Test Host File Entries</h2>
+<h2>Step 2: Test Host Entrie</h2>
 
 <p>
     &emsp;Test the host entries by clicking the links below.
     This will verify the server paths are correct.
 </p>
-
-<h3>Local Sites</h3>
 
 <ul class="no-bullets">
 
