@@ -1,13 +1,10 @@
 <h2>Step 3: Created Databases</h2>
 
 <p>
-    &emsp;Below is a list of required local databases. The databases have been created and
-    the tables have been defined.
+    &emsp;Two databases have been created.
 </p>
 
-<h3>Databases</h3>
-
-<ol>
+<ul>
 
 <?  foreach ($dbs as $db) : ?>
 
@@ -15,6 +12,6 @@
 
 <?  endforeach; ?>
 
-</ol>
+</ul>
 
 <hr/>
