@@ -14,9 +14,9 @@
 
 <?  require 'inc/html/30-instructions.php' ?>
 
-<?  require 'inc/html/40-instructions.php' ?>
-
 <?  require 'inc/html/50-instructions.php' ?>
+
+<?  require 'inc/html/40-instructions.php' ?>
 
 <?  require 'inc/html/60-instructions.php' ?>
 
