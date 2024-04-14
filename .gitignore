@@ -2,5 +2,5 @@
 mysql/
 
 # seed files
-#database/seed/
-#!database/seed/.gitkeep
+database/seed/
+!database/seed/.gitkeep
