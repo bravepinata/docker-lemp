@@ -13,7 +13,7 @@ It is built from:
 sudo git clone git@github.com:bravepinata/docker-lemp.git
 ```
 
-<strong>Step 2:</strong> Enter the newly created imh_v01 directory
+<strong>Step 2:</strong> Enter the newly created docker-lemp directory
 ```shell
 cd docker-lemp/
 ```
